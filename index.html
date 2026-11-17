@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aldrin Lambon | Data Science and AI for Public Good</title>
+<meta name="description" content="Aldrin Lambon is a data scientist from Manila building AI and data systems for finance, government, and climate. Award-winning work in open data, generative AI, and machine learning.">
+<meta property="og:title" content="Aldrin Lambon | Data Science and AI for Public Good">
+<meta property="og:description" content="Building data and AI systems that work in production, in banks and for the public.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aldrinlambon.github.io/">
+<link rel="canonical" href="https://aldrinlambon.github.io/">
+<meta name="author" content="Aldrin Lambon">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230f6e6e'/><text x='50%' y='58%' text-anchor='middle' font-family='Georgia' font-size='30' fill='white'>AL</text></svg>">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Aldrin Lambon","jobTitle":"Data Scientist, Manager","address":{"@type":"PostalAddress","addressLocality":"Manila","addressCountry":"PH"},"alumniOf":["University of the Philippines Los Baños","The University of Texas at Austin"],"url":"https://aldrinlambon.github.io/","sameAs":["https://www.linkedin.com/in/aldrinlambon/","https://github.com/aldrinlambon"]}</script>
+<style>
+:root{--bg:#fbfaf7;--fg:#1c1f23;--muted:#5d646d;--line:#e4e1da;--card:#fff;--accent:#0f6e6e;--accent2:#c2410c}
+@media (prefers-color-scheme:dark){:root{--bg:#111416;--fg:#eceae6;--muted:#a3a9b0;--line:#2a2f33;--card:#181c1f;--accent:#4fb3b3;--accent2:#f59e5b}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);line-height:1.65}
+a{color:var(--accent)}a:focus-visible,button:focus-visible{outline:2px solid var(--accent2);outline-offset:3px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px;gap:12px}
+nav b{font-weight:700;letter-spacing:.3px}nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{color:var(--muted);text-decoration:none;font-size:.92rem}nav ul a:hover{color:var(--fg)}
+@media(max-width:700px){nav ul{display:none}}
+header{padding:90px 0 60px}
+.eyebrow{color:var(--accent2);font-weight:600;font-size:.85rem;letter-spacing:1.5px;text-transform:uppercase}
+h1{font-size:clamp(2rem,5vw,3.3rem);line-height:1.12;margin:.4em 0 .5em;font-family:Georgia,"Times New Roman",serif;font-weight:600}
+.lead{font-size:1.15rem;color:var(--muted);max-width:700px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:600;font-size:.95rem;border:1px solid var(--line);color:var(--fg)}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-top:50px}
+.stat{border-left:3px solid var(--accent);padding:4px 14px}.stat strong{display:block;font-size:1.6rem}.stat span{color:var(--muted);font-size:.9rem}
+section{padding:64px 0;border-top:1px solid var(--line)}
+h2{font-family:Georgia,serif;font-size:1.9rem;margin:0 0 8px}.sub{color:var(--muted);margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;display:flex;flex-direction:column}
+.card h3{margin:6px 0 8px;font-size:1.12rem;line-height:1.35}.card>p{margin:0 0 10px;color:var(--muted);font-size:.95rem}
+.pts{margin:0 0 14px;padding-left:18px;color:var(--muted);font-size:.92rem}.pts li{margin-bottom:4px}.pts b{color:var(--fg)}
+.badge{display:inline-block;font-size:.75rem;font-weight:600;color:var(--accent2);text-transform:uppercase;letter-spacing:.8px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:auto 0 12px}.tags span{font-size:.75rem;border:1px solid var(--line);border-radius:20px;padding:2px 10px;color:var(--muted)}
+.links a{font-size:.9rem;margin-right:14px;font-weight:600}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.filters button{font:inherit;font-size:.88rem;padding:6px 14px;border-radius:20px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.filters button[aria-pressed=true]{background:var(--fg);color:var(--bg)}
+.timeline{list-style:none;padding:0;margin:0}.timeline li{display:grid;grid-template-columns:170px 1fr;gap:18px;padding:18px 0;border-bottom:1px dashed var(--line)}
+.timeline .when{color:var(--muted);font-size:.9rem}.timeline h3{margin:0;font-size:1.05rem}.timeline p{margin:4px 0 0;color:var(--muted);font-size:.95rem}
+.timeline ul{margin:6px 0 0;padding-left:18px;color:var(--muted);font-size:.95rem}
+@media(max-width:640px){.timeline li{grid-template-columns:1fr;gap:4px}}
+.two{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}@media(max-width:760px){.two{grid-template-columns:1fr}}
+.skills div{margin-bottom:14px}.skills b{display:block;font-size:.85rem;text-transform:uppercase;letter-spacing:1px;color:var(--accent)}
+blockquote{margin:0;padding:18px 22px;border-left:4px solid var(--accent2);background:var(--card);border-radius:0 10px 10px 0;font-family:Georgia,serif;font-size:1.1rem}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:var(--card);padding:8px 12px;z-index:9}
+.proof{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:34px;color:var(--muted);font-size:.85rem}.proof b{color:var(--fg);font-weight:600}
+.glance{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:26px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.glance h3{margin:0 0 6px;font-size:.8rem;text-transform:uppercase;letter-spacing:1px;color:var(--accent)}.glance p{margin:0;font-size:.95rem}
+.impact{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.impact div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}.impact strong{display:block;font-size:1.5rem;color:var(--accent)}.impact span{font-size:.9rem;color:var(--muted)}
+.card.feat{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+.card{transition:transform .15s}.card:hover{transform:translateY(-3px)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}.card:hover{transform:none}}
+@media print{.top,nav,.filters,.cta,.skip{display:none}section{padding:18px 0;break-inside:avoid}body{background:#fff;color:#000}.card{break-inside:avoid}}
+.xp{display:flex;flex-direction:column;gap:16px}
+.co{display:flex;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px}
+.logo{flex:0 0 48px;height:48px;border-radius:10px;background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:700;font-size:.95rem;letter-spacing:.5px}
+.cob{flex:1;min-width:0}.co h3{margin:0;font-size:1.1rem}.co h4{margin:0;font-size:1rem}
+.meta{color:var(--muted);font-size:.87rem}
+.role{margin-top:12px}.role ul:not(.chips){margin:8px 0 0;padding-left:18px;font-size:.95rem}.role li{margin-bottom:4px}
+.roles{position:relative;margin-top:4px}.roles .role{position:relative;padding-left:22px}
+.roles .role:before{content:"";position:absolute;left:4px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--line);border:2px solid var(--accent)}
+.roles .role:not(:last-child):after{content:"";position:absolute;left:9px;top:22px;bottom:-14px;width:2px;background:var(--line)}
+.chips{list-style:none;padding:0;margin:12px 0 0;display:flex;flex-wrap:wrap;gap:6px}
+.chips li{font-size:.8rem;border:1px solid var(--line);border-radius:20px;padding:3px 11px;color:var(--muted)}
+.chips li.core{border-color:var(--accent);color:var(--accent);font-weight:600}.chips.sm li{font-size:.74rem;padding:2px 9px}
+.tk{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.tkc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.tki{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:color-mix(in srgb,var(--accent) 15%,transparent);color:var(--accent);font-weight:700}
+.tkc h3{margin:12px 0 2px;font-size:1.05rem}.tkc p{margin:0;color:var(--muted);font-size:.88rem}
+.edu{margin-top:30px}.edu h3{font-size:1.05rem;margin:0 0 10px}
+.edrow{display:flex;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line)}.edrow b,.edrow span,.edrow small{display:block}
+.edrow span{font-size:.92rem}.edrow small{color:var(--muted);font-size:.85rem}
+.top{position:fixed;right:18px;bottom:18px;width:42px;height:42px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;text-decoration:none;opacity:0;pointer-events:none;transition:opacity .2s}
+.top.show{opacity:1;pointer-events:auto}
+nav ul a.active{color:var(--fg);font-weight:600}
+@media(max-width:520px){.co{flex-direction:column}}
+footer{padding:40px 0;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav><div class="wrap"><b>Aldrin Lambon</b>
+<ul><li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li><li><a href="#toolkit">Toolkit</a></li><li><a href="#publications">Publications</a></li><li><a href="#awards">Awards</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<main id="main">
+<header class="wrap">
+<div class="eyebrow">Data Scientist · Manila, Philippines</div>
+<h1>I turn messy public data into decisions that help people.</h1>
+<p class="lead">Data scientist with 9+ years of experience and 5 data and AI competition awards. By day, I build production AI at a major Philippine bank. Beyond work, I apply the same rigor to Philippine public problems: school access in BARMM, typhoon risk, sustainable fishing, and transit reliability.</p>
+<div class="cta"><a class="btn primary" href="#work">See my work</a><a class="btn" href="https://www.linkedin.com/in/aldrinlambon/" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/aldrinlambon" target="_blank" rel="noopener">GitHub</a></div>
+<div class="proof" aria-label="Recognized by"><span>Recognized by</span><b>Microsoft</b><b>Amazon Web Services</b><b>The Asia Foundation</b><b>Accenture</b><b>Nordic Machine Intelligence</b></div>
+<div class="stats">
+<div class="stat"><strong>9+ years</strong><span>in data science and analytics</span></div>
+<div class="stat"><strong>5 awards</strong><span>in data and AI challenges</span></div>
+<div class="stat"><strong>3 publications</strong><span>Journal, Microsoft AI blog, and undergraduate research</span></div>
+<div class="stat"><strong>4 public-good themes</strong><span>Education, climate, fisheries, transport</span></div>
+</div>
+</header>
+
+<section id="glance" aria-label="At a glance"><div class="wrap">
+<h2>At a glance</h2><p class="sub">The short version.</p>
+<div class="glance">
+<div><h3>Who</h3><p>Data Scientist and Manager at Security Bank. BS Statistics (UPLB) and postgraduate AI/ML (UT Austin).</p></div>
+<div><h3>Focus</h3><p>Open data, geospatial analysis, and AI applied to Philippine public problems.</p></div>
+<div><h3>Proof</h3><p>Winner of the Bangsamoro Data Challenge. Grand Prize at Microsoft's Climate Hackathon. Published in Nordic Machine Intelligence.</p></div>
+<div><h3>Strength</h3><p>I take ideas past the prototype stage. My work runs in production inside a regulated bank.</p></div>
+</div></div></section>
+
+<section id="impact"><div class="wrap">
+<h2>Measured impact</h2><p class="sub">Results from my professional work.</p>
+<div class="impact">
+<div><strong>Days → minutes</strong><span>to prepare a client view for bank Relationship Managers (WealthView)</span></div>
+<div><strong>80% less</strong><span>manual data processing across 4 departments</span></div>
+<div><strong>1 day → 1 hour</strong><span>log analysis using language models</span></div>
+<div><strong>30% more</strong><span>defects caught with anomaly detection</span></div>
+</div></div></section>
+
+<section id="work"><div class="wrap">
+<h2>Selected work</h2><p class="sub">Projects for public good, research, and real-world AI.</p>
+<div class="filters" role="group" aria-label="Filter projects">
+<button type="button" data-f="all" aria-pressed="true">All</button>
+<button type="button" data-f="gov" aria-pressed="false">Government and open data</button>
+<button type="button" data-f="climate" aria-pressed="false">Climate and environment</button>
+<button type="button" data-f="ai" aria-pressed="false">Generative AI</button>
+</div>
+<div class="grid" id="projects">
+<article class="card feat" data-c="gov"><span class="badge">★ Winner · Bangsamoro Data Challenge 2020</span>
+<h3>SAGES: Access to Education in BARMM</h3>
+<p>Looked at how easily people can reach schools in BARMM, both by population and by location. Built a dashboard for policymakers and used statistics and machine learning to suggest where new schools should go. Group project; I handled data processing and the dashboard.</p>
+<div class="tags"><span>Geospatial</span><span>Machine learning</span><span>Open data</span></div>
+<div class="links"><a href="https://github.com/aldrinlambon/SagesBARMM" target="_blank" rel="noopener">Code</a><a href="https://public.tableau.com/profile/myra.saet8551#!/vizhome/Educationgap_16068356551150/Dashboard1" target="_blank" rel="noopener">Education gap dashboard</a></div></article>
+
+<article class="card feat" data-c="climate"><span class="badge">★ Grand Prize · Climate Hackathon 2022</span>
+<h3>AVERA: Automated Vessel Emission and Route Analysis</h3>
+<p>A prototype for tracking ship emissions. It combines voyage and vessel data so users can see emission patterns by vessel type, route, and time period.</p>
+<div class="tags"><span>Azure</span><span>PostgreSQL</span><span>Power BI</span></div>
+<div class="links"><a href="https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/introducing-avera-automated-vessel-emission-and-route-analysis/ba-p/3567554" target="_blank" rel="noopener">Microsoft AI blog feature</a></div></article>
+
+<article class="card" data-c="ai"><span class="badge">1st Runner-up · AWS GenAI Hackathon 2025</span>
+<h3>WealthView: Generative AI for Relationship Managers</h3>
+<p>Automates the data pipeline behind the bank's Relationship Managers. Client information that took days to compile is ready in minutes, so they can serve clients faster and better, improving customer satisfaction and service.</p>
+<div class="tags"><span>Generative AI</span><span>AWS</span><span>Pipeline automation</span></div></article>
+
+<article class="card" data-c="ai"><span class="badge">Project lead · Data scientist</span>
+<h3>OASIS</h3>
+<p>A hackathon project built on open-weight GPT models. I led the team and did the data science work.</p>
+<!-- TODO: replace with 1-2 lines on the problem and the result -->
+<div class="tags"><span>Open-weight LLMs</span><span>Python</span></div>
+<div class="links"><a href="https://github.com/myrasaet/oasis-gpt-oss" target="_blank" rel="noopener">Code</a><a href="https://devpost.com/software/placeholder-9kzraq" target="_blank" rel="noopener">Devpost</a></div></article>
+
+<article class="card" data-c="gov"><span class="badge">Open data dashboard</span>
+<h3>Bangsamoro Socio-Economic Profile</h3>
+<p>A population and socio-economic dashboard that makes BARMM open data quicker to read and use for government agencies.</p>
+<div class="tags"><span>Tableau</span><span>Open data</span></div>
+<div class="links"><a href="https://public.tableau.com/profile/aldrinlambon#!/vizhome/BangsamoroSocio-EconomicProfile/OpenBangsamoroData" target="_blank" rel="noopener">View dashboard</a></div></article>
+
+<article class="card" data-c="climate"><span class="badge">1st Runner-up · FishAI Challenge 2022</span>
+<h3>FishMAZE: Fish Monitoring and AI-based Zone Evaluation</h3>
+<p>Predicts where fish are likely to be, shows the results in visuals fishermen can understand, and recommends sustainable fishing routes.</p>
+<div class="tags"><span>Machine learning</span><span>Geospatial</span><span>Published</span></div>
+<div class="links"><a href="https://doi.org/10.5617/nmi.9941" target="_blank" rel="noopener">Paper (Nordic Machine Intelligence)</a></div></article>
+
+<article class="card" data-c="gov"><span class="badge">Top 5 · Accenture Data Challenge 2018</span>
+<h3>Predicting MRT-3 Service Breakdowns</h3>
+<p>A deep learning model that predicts MRT-3 breakdowns from passenger traffic, helping plan staffing and maintenance ahead of time.</p>
+<div class="tags"><span>Deep learning</span><span>Time series</span></div></article>
+
+<article class="card" data-c="climate gov"><span class="badge">Undergraduate research · 2016</span>
+<h3>Typhoon Disaster-Prone Provinces in the Philippines</h3>
+<p>A spatial analysis of where typhoons hit and where they cause the most damage. It found that these are often different places, and recommended a government review of disaster planning.</p>
+<div class="tags"><span>Spatial statistics</span><span>Disaster risk</span></div></article>
+</div></div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2><p class="sub">9+ years across banking, business process outsourcing, real estate tech, and manufacturing R&amp;D.</p>
+<div class="xp">
+
+<article class="co"><div class="logo" aria-hidden="true">SB</div><div class="cob">
+<h3>Security Bank Corporation</h3><div class="meta">Full-time · Manila, Philippines</div>
+<div class="role"><h4>Data Scientist, Manager</h4><div class="meta"><time datetime="2023-07">Jul 2023</time> – Present · <span class="dur" data-from="2023-07"></span></div>
+<ul><li>Leads generative AI and machine learning work to modernize financial crime compliance.</li><li>Built financial risk models with forecast error (MAPE) under 20%, meeting central bank requirements.</li><li>Built unsupervised customer segmentation models that improved marketing efficiency by 30%.</li></ul>
+<ul class="chips sm"><li>Generative AI</li><li>AWS SageMaker</li><li>PySpark</li><li>Risk modeling</li></ul></div>
+</div></article>
+
+<article class="co"><div class="logo" aria-hidden="true">TU</div><div class="cob">
+<h3>TaskUs</h3><div class="meta">Full-time · Remote</div>
+<div class="role"><h4>Business Insights Manager</h4><div class="meta"><time datetime="2021-10">Oct 2021</time> – <time datetime="2023-07">Jul 2023</time> · 1 yr 10 mos</div>
+<ul><li>Built business intelligence tools in Python and Power BI that cut manual data processing by 80% across 4 departments.</li><li>Led 6 data analysts using agile, cutting reporting turnaround from 2 weeks to 1 week.</li></ul>
+<ul class="chips sm"><li>Python</li><li>Power BI</li><li>Team leadership</li><li>Agile</li></ul></div>
+</div></article>
+
+<article class="co"><div class="logo" aria-hidden="true">VC</div><div class="cob">
+<h3>Virtual Champs Global</h3><div class="meta">Full-time · Remote · 1 yr 6 mos</div>
+<div class="roles">
+<div class="role"><h4>Data Scientist, Team Lead</h4><div class="meta"><time datetime="2020-12">Dec 2020</time> – <time datetime="2021-09">Sep 2021</time> · 10 mos</div>
+<ul><li>Led 4 data analysts and scientists to build a Power BI reporting system, expanding coverage to 3 more departments.</li><li>Managed Power BI gateways, dataflows, datasets, and pipelines, reducing resource use by 25%.</li></ul></div>
+<div class="role"><h4>Data Scientist</h4><div class="meta"><time datetime="2020-04">Apr 2020</time> – <time datetime="2020-12">Dec 2020</time> · 9 mos</div>
+<ul><li>Built a Power BI dashboard of property listings and agents, improving lead generation efficiency by 50%.</li><li>Built property valuation models in Python and AWS that score buy, sell, and flip probabilities for listing recommendations.</li></ul></div>
+</div>
+<ul class="chips sm"><li>Machine learning</li><li>AWS</li><li>Power BI</li></ul>
+</div></article>
+
+<article class="co"><div class="logo" aria-hidden="true">AW</div><div class="cob">
+<h3>Advanced World Solutions</h3><div class="meta">Full-time · Muntinlupa, Philippines · 2 yrs 6 mos</div>
+<div class="roles">
+<div class="role"><h4>Assistant Research and Development Engineer</h4><div class="meta"><time datetime="2019-01">Jan 2019</time> – <time datetime="2019-12">Dec 2019</time> · 1 yr</div>
+<ul><li>Built machine learning models to detect anomalies in sensor data over time, raising the defect detection rate by 30%.</li><li>Built language models in Python to summarize event logs of defective parts, cutting analysis from 1 day to 1 hour.</li></ul></div>
+<div class="role"><h4>Junior Research and Development Engineer</h4><div class="meta"><time datetime="2017-07">Jul 2017</time> – <time datetime="2018-12">Dec 2018</time> · 1 yr 6 mos</div>
+<ul><li>Built Python data pipelines that cut processing time from 3–5 days to 1 day.</li><li>Managed Tableau Server connections and refresh schedules, moving reports from weekly to daily refresh.</li></ul></div>
+</div>
+<ul class="chips sm"><li>Anomaly detection</li><li>NLP</li><li>Python</li><li>Tableau</li></ul>
+</div></article>
+
+</div></div></section>
+
+<section id="toolkit"><div class="wrap">
+<h2>Toolkit</h2><p class="sub">What I use to take a problem from raw data to a working product.</p>
+<div class="tk">
+<div class="tkc"><div class="tki" aria-hidden="true">∑</div><h3>Methods</h3><p>From statistics to generative AI.</p>
+<ul class="chips"><li>Statistical modeling</li><li>Machine learning</li><li>Deep learning</li><li>Generative AI and LLMs</li><li>NLP</li><li>Time series</li><li>Geospatial analysis</li><li>Anomaly detection</li><li>Customer segmentation</li></ul></div>
+<div class="tkc"><div class="tki" aria-hidden="true">&lt;/&gt;</div><h3>Languages</h3><p>Daily drivers for analysis and pipelines.</p>
+<ul class="chips"><li class="core">Python</li><li class="core">SQL</li><li class="core">PySpark</li><li>R</li><li>SAS</li></ul></div>
+<div class="tkc"><div class="tki" aria-hidden="true">☁</div><h3>Cloud and ML platforms</h3><p>Where models are built and deployed.</p>
+<ul class="chips"><li class="core">AWS SageMaker</li><li>Amazon Bedrock</li><li>Databricks</li><li>Dataiku</li><li>Azure ML Studio</li><li>Azure Blob Storage</li><li>PostgreSQL</li></ul></div>
+<div class="tkc"><div class="tki" aria-hidden="true">▤</div><h3>Analytics and BI</h3><p>Turning results into decisions.</p>
+<ul class="chips"><li class="core">Power BI</li><li class="core">Tableau</li><li>Power BI gateways and dataflows</li><li>Tableau Server</li></ul></div>
+</div>
+<div class="edu"><h3>Education</h3>
+<div class="edrow"><div class="logo" aria-hidden="true">UT</div><div><b>The University of Texas at Austin</b><span>Post Graduate Program in AI and Machine Learning: Business Applications · 2024</span><small>Advanced Machine Learning, Natural Language Processing, Computer Vision</small></div></div>
+<div class="edrow"><div class="logo" aria-hidden="true">UP</div><div><b>University of the Philippines Los Baños</b><span>BS Statistics · 2016</span><small>Statistical Computing, Time Series Analysis, Multivariate Data Analysis</small></div></div>
+</div>
+</div></section>
+
+<section id="publications"><div class="wrap">
+<h2>Publications</h2><p class="sub">Journal, featured, and academic work.</p>
+<ul class="timeline">
+<li><span class="when">2022</span><div><h3>FishMAZE: Fish Monitoring and AI-based Zone Evaluation</h3><p>Nordic Machine Intelligence, vol. 02 · <a href="https://doi.org/10.5617/nmi.9941" target="_blank" rel="noopener">doi.org/10.5617/nmi.9941</a></p></div></li>
+<li><span class="when">2022</span><div><h3>Introducing AVERA: Automated Vessel Emission and Route Analysis</h3><p>Microsoft AI and Machine Learning Blog · <a href="https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/introducing-avera-automated-vessel-emission-and-route-analysis/ba-p/3567554" target="_blank" rel="noopener">Read article</a></p></div></li>
+<li><span class="when">2016</span><div><h3>Determination of Typhoon Disaster-Prone Provinces in the Philippines Using Spatial Analysis</h3><p>Undergraduate research paper, Institute of Statistics, University of the Philippines Los Baños. Presented at the 17th Faculty-Student Conference on Statistical Sciences.</p></div></li>
+</ul></div></section>
+
+<section id="awards"><div class="wrap">
+<h2>Awards</h2><p class="sub">Results in data and AI competitions.</p>
+<ul class="timeline">
+<li><span class="when">2025</span><div><h3>1st Runner-up, AWS Generative AI Hackathon</h3><p>WealthView</p></div></li>
+<li><span class="when">2022</span><div><h3>Grand Prize, Climate Hackathon (Microsoft and Macsimum)</h3><p>AVERA</p></div></li>
+<li><span class="when">2022</span><div><h3>1st Runner-up, FishAI Sustainable Commercial Fishing Challenge</h3><p>FishMAZE</p></div></li>
+<li><span class="when">2021</span><div><h3>Winner, Bangsamoro Data Challenge 2020 (The Asia Foundation and Data Ethics PH)</h3><p>SAGES</p></div></li>
+<li><span class="when">2018</span><div><h3>Top 5 Predictive Model, Accenture Data Challenge</h3><p>MRT-3 breakdown prediction</p></div></li>
+</ul></div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Let's work together</h2><p class="sub">Open to collaborations, speaking, research partnerships, and data and AI projects with real-world impact.</p>
+<div class="cta"><a class="btn primary" href="mailto:aldrinlambon@gmail.com">aldrinlambon@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/aldrinlambon/" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/aldrinlambon" target="_blank" rel="noopener">GitHub</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">© <span id="yr"></span> Aldrin Lambon · Views are my own. Work projects are described without confidential details.</div></footer>
+<a href="#main" class="top" aria-label="Back to top">↑</a>
+<script>
+(function(){
+var now=new Date();document.getElementById('yr').textContent=now.getFullYear();
+document.querySelectorAll('.dur').forEach(function(el){var p=el.dataset.from.split('-'),m=(now.getFullYear()-+p[0])*12+(now.getMonth()+1-+p[1])+1,y=Math.floor(m/12),r=m%12;el.textContent=(y?y+' yr'+(y>1?'s':''):'')+(y&&r?' ':'')+(r?r+' mo'+(r>1?'s':''):'');});
+var top=document.querySelector('.top');window.addEventListener('scroll',function(){top.classList.toggle('show',window.scrollY>600)},{passive:true});
+if('IntersectionObserver' in window){var links={};document.querySelectorAll('nav ul a').forEach(function(l){links[l.getAttribute('href').slice(1)]=l});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&links[e.target.id]){Object.keys(links).forEach(function(k){links[k].classList.remove('active')});links[e.target.id].classList.add('active')}})},{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('section[id]').forEach(function(sec){io.observe(sec)});}
+var btns=document.querySelectorAll('.filters button'),cards=document.querySelectorAll('#projects .card');
+btns.forEach(function(b){b.addEventListener('click',function(){
+var f=b.dataset.f;btns.forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+cards.forEach(function(c){c.hidden=!(f==='all'||c.dataset.c.split(' ').indexOf(f)>-1)});
+})});
+})();
+</script>
+</body>
+</html>
